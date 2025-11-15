@@ -28,7 +28,7 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 5. Deterministic Component Matters
    A sinusoidal function effectively captures seasonal behavior and improves model fit.
 
-  Dummy variables for months and holidays also help, but are more sensitive to anomalies.
+   Dummy variables for months and holidays also help, but are more sensitive to anomalies.
 
 6. Empirical Validation
    Using Nord Pool data (1993–1999), the models are tested against actual futures and forward prices.
