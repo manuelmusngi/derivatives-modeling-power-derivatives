@@ -87,14 +87,15 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 
 One-factor mean-reverting spot model with seasonality
 
+### Project Architecture
 
-electricity_models/
-├─ pyproject.toml
-├─ README.md
+electricity_models/\
+├─ pyproject.toml\
+├─ README.md\
 ├─ config/
-│  ├─ settings.yaml
-├─ data/
-│  ├─ raw/                # input CSVs: spot, forwards
+│  ├─ settings.yaml\
+├─ data/\
+│  ├─ raw/                # input CSVs: spot, forwards\
 │  ├─ interim/            # cleaned outputs
 │  ├─ processed/          # modeling-ready datasets
 ├─ notebooks/
