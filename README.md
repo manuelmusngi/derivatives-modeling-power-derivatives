@@ -36,6 +36,7 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
    Model 2 (price-based with sinusoidal seasonality) performs best, especially when incorporating a non-zero market price of risk.
 
 
+
 ✅ Main Takeaways
 - Seasonality is crucial: Ignoring it leads to poor derivative pricing.
 
