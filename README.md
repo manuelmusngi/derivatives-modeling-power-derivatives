@@ -68,8 +68,8 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 3. Deterministic Seasonality Functions
 - Several specifications are tested:
 
-Sinusoidal functions (smooth seasonal cycles).
+ - Sinusoidal functions (smooth seasonal cycles).
 
-Monthly dummy variables (discrete seasonal shifts).
+ - Monthly dummy variables (discrete seasonal shifts).
 
-The sinusoidal form is found to be parsimonious and effective.
+- The sinusoidal form is found to be parsimonious and effective.
