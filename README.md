@@ -34,3 +34,15 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
    Using Nord Pool data (1993–1999), the models are tested against actual futures and forward prices.
 
    Model 2 (price-based with sinusoidal seasonality) performs best, especially when incorporating a non-zero market price of risk.
+
+
+✅ Main Takeaways
+Seasonality is crucial: Ignoring it leads to poor derivative pricing.
+
+Electricity markets require tailored models due to their unique physical and economic constraints.
+
+Simple deterministic functions (like sine waves) can effectively capture complex seasonal patterns.
+
+Two-factor models offer better flexibility and realism, especially for long-dated contracts.
+
+Empirical calibration matters: Even simple models can perform well with thoughtful parameterization and risk adjustments.
