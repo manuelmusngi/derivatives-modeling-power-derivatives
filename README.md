@@ -37,12 +37,12 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 
 
 ✅ Main Takeaways
-Seasonality is crucial: Ignoring it leads to poor derivative pricing.
+- Seasonality is crucial: Ignoring it leads to poor derivative pricing.
 
-Electricity markets require tailored models due to their unique physical and economic constraints.
+- Electricity markets require tailored models due to their unique physical and economic constraints.
 
-Simple deterministic functions (like sine waves) can effectively capture complex seasonal patterns.
+- Simple deterministic functions (like sine waves) can effectively capture complex seasonal patterns.
 
-Two-factor models offer better flexibility and realism, especially for long-dated contracts.
+- Two-factor models offer better flexibility and realism, especially for long-dated contracts.
 
-Empirical calibration matters: Even simple models can perform well with thoughtful parameterization and risk adjustments.
+- Empirical calibration matters: Even simple models can perform well with thoughtful parameterization and risk adjustments.
