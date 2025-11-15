@@ -74,3 +74,13 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
   - Monthly dummy variables (discrete seasonal shifts).
 
 - The sinusoidal form is found to be parsimonious and effective.
+
+
+✅ Main Modeling Takeaways
+- Seasonality + mean reversion are essential to capture electricity price dynamics.
+
+- Two-factor models outperform one-factor models, especially for longer maturities.
+
+- Simple sinusoidal seasonality works surprisingly well compared to more complex specifications.
+
+- Risk premia matter: ignoring them leads to systematic mispricing of derivatives.
