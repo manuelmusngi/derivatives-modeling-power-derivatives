@@ -84,3 +84,144 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 - Simple sinusoidal seasonality works surprisingly well compared to more complex specifications.
 
 - Risk premia matter: ignoring them leads to systematic mispricing of derivatives.
+
+One-factor mean-reverting spot model with seasonality
+Let 
+𝑆
+𝑡
+ be the spot price and 
+𝑠
+(
+𝑡
+)
+ a deterministic seasonal function (e.g., sinusoidal). Define the deseasonalized log spot
+
+𝑥
+𝑡
+≡
+ln
+⁡
+𝑆
+𝑡
+−
+𝑠
+(
+𝑡
+)
+.
+Under the physical measure 
+𝑃
+:
+
+𝑑
+𝑥
+𝑡
+=
+𝜅
+(
+𝜇
+−
+𝑥
+𝑡
+)
+ 
+𝑑
+𝑡
++
+𝜎
+ 
+𝑑
+𝑊
+𝑡
+𝑃
+,
+so that
+
+𝑆
+𝑡
+=
+exp
+⁡
+ ⁣
+(
+𝑠
+(
+𝑡
+)
++
+𝑥
+𝑡
+)
+.
+Under the risk–neutral measure 
+𝑄
+, with market price of risk 
+𝜆
+ (or equivalently a risk-adjusted mean 
+𝜇
+𝑄
+):
+
+𝑑
+𝑥
+𝑡
+=
+𝜅
+(
+𝜇
+𝑄
+−
+𝑥
+𝑡
+)
+ 
+𝑑
+𝑡
++
+𝜎
+ 
+𝑑
+𝑊
+𝑡
+𝑄
+,
+where
+𝜇
+𝑄
+=
+𝜇
+−
+𝜆
+𝜅
+.
+A common seasonal specification is
+
+𝑠
+(
+𝑡
+)
+=
+𝑎
+0
++
+𝑎
+1
+cos
+⁡
+(
+2
+𝜋
+𝑡
+)
++
+𝑎
+2
+sin
+⁡
+(
+2
+𝜋
+𝑡
+)
+,
+optionally augmented with monthly or weekly dummies.
