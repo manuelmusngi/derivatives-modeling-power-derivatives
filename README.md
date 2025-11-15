@@ -46,3 +46,30 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 - Two-factor models offer better flexibility and realism, especially for long-dated contracts.
 
 - Empirical calibration matters: Even simple models can perform well with thoughtful parameterization and risk adjustments.
+
+
+⚡ Research Models in the Paper
+1. One-Factor Mean-Reverting Model
+- Spot price (or log spot price) is modeled as a mean-reverting Ornstein–Uhlenbeck (OU) process.
+
+- Includes a deterministic seasonal component (e.g., sinusoidal function) to capture predictable seasonal cycles.
+
+- Captures short-term dynamics but struggles with long-term correlation across contracts.
+
+2. Two-Factor Model (Short-Term + Long-Term)
+- Extends the one-factor model by adding a second stochastic factor:
+
+ - Short-term factor: mean-reverting, captures daily/weekly volatility and spikes.
+
+ - Long-term factor: slower-moving, captures persistent shifts in price levels.
+
+- Allows for imperfect correlation between contracts of different maturities, improving realism for forward/futures pricing.
+
+3. Deterministic Seasonality Functions
+- Several specifications are tested:
+
+Sinusoidal functions (smooth seasonal cycles).
+
+Monthly dummy variables (discrete seasonal shifts).
+
+The sinusoidal form is found to be parsimonious and effective.
