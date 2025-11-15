@@ -96,14 +96,14 @@ electricity_models/\
 │  ├─ settings.yaml\
 ├─ data/\
 │  ├─ raw/                # input CSVs: spot, forwards\
-│  ├─ interim/            # cleaned outputs
-│  ├─ processed/          # modeling-ready datasets
-├─ notebooks/
-│  ├─ 01_explore_spot.ipynb
-│  ├─ 02_calibration.ipynb
-│  ├─ 03_pricing_validation.ipynb
-├─ src/
-│  ├─ electricity_models/
+│  ├─ interim/            # cleaned outputs\
+│  ├─ processed/          # modeling-ready datasets\
+├─ notebooks/\
+│  ├─ 01_explore_spot.ipynb\
+│  ├─ 02_calibration.ipynb\
+│  ├─ 03_pricing_validation.ipynb\
+├─ src/\
+│  ├─ electricity_models/\
 │  │  ├─ __init__.py
 │  │  ├─ io.py                  # data I/O
 │  │  ├─ cleaning.py            # data cleaning (Polars)
