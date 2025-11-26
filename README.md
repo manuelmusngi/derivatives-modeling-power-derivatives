@@ -2,6 +2,8 @@ This project is an exercise on derivatives modeling and a research paper replica
 
 It evaluates one- and two-factor models to capture these dynamics and tests their empirical performance.
 
+---
+
 📌 Key Highlights
 1. Electricity’s Unique Characteristics
    Non-storability and limited transportability make electricity fundamentally different from other commodities.
@@ -35,7 +37,7 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 
    Model 2 (price-based with sinusoidal seasonality) performs best, especially when incorporating a non-zero market price of risk.
 
-
+---
 
 ✅ Main Takeaways
 - Seasonality is crucial: Ignoring it leads to poor derivative pricing.
@@ -48,6 +50,7 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 
 - Empirical calibration matters: Even simple models can perform well with thoughtful parameterization and risk adjustments.
 
+---
 
 ⚡ Research Models in the Paper
 1. One-Factor Mean-Reverting Model
@@ -75,6 +78,7 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 
 - The sinusoidal form is found to be parsimonious and effective.
 
+---
 
 ✅ Main Modeling Takeaways
 - Seasonality + mean reversion are essential to capture electricity price dynamics.
@@ -86,6 +90,8 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 - Risk premia matter: ignoring them leads to systematic mispricing of derivatives.
 
 One-factor mean-reverting spot model with seasonality
+
+---
 
 ### Project Architecture
 
