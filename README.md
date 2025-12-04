@@ -101,12 +101,12 @@ electricity_models/\
 ├─ config/\
 │  ├─ settings.yaml\
 ├─ data/\
-│  ├─ raw/                # input CSVs: spot, forwards\
-│  ├─ interim/            # cleaned outputs\
-│  ├─ processed/          # modeling-ready datasets\
+│  ├─ raw                # input CSVs: spot, forwards\
+│  ├─ interim            # cleaned outputs\
+│  ├─ processed          # modeling-ready datasets\
 ├─ reports/\ 
-│  ├─ figures/            # plots and charts\
-│  ├─ summaries/          # parameter summaries, validation metrics\
+│  ├─ figures            # plots and charts\
+│  ├─ summaries          # parameter summaries, validation metrics\
 ├─ src/\
 │  ├─ electricity_models/\
 │  │  ├─ __init__.py\
