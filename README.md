@@ -98,7 +98,7 @@ One-factor mean-reverting spot model with seasonality
 electricity_models/\
 ├─ pyproject.toml\
 ├─ README.md\
-├─ config/
+├─ config/\
 │  ├─ settings.yaml\
 ├─ data/\
 │  ├─ raw/                # input CSVs: spot, forwards\
