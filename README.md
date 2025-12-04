@@ -104,7 +104,7 @@ electricity_models/\
 │  ├─ raw                # input CSVs: spot, forwards\
 │  ├─ interim            # cleaned outputs\
 │  ├─ processed          # modeling-ready datasets\
-├─ reports/\ 
+├─ reports/ 
 │  ├─ figures            # plots and charts\
 │  ├─ summaries          # parameter summaries, validation metrics\
 ├─ src/\
