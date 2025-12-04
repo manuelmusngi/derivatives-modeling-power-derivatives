@@ -101,26 +101,26 @@ electricity_models/\
 ├─ config/\
 │  ├─ settings.yaml\
 ├─ data/\
-│  ├─ raw/\                # input CSVs: spot, forwards
-│  ├─ interim/\            # cleaned outputs
-│  ├─ processed/\          # modeling-ready datasets
-├─ reports/\
-│  ├─ figures/\            # plots and charts
-│  ├─ summaries/\          # parameter summaries, validation metrics
+│  ├─ raw/                # input CSVs: spot, forwards\
+│  ├─ interim/            # cleaned outputs\
+│  ├─ processed/          # modeling-ready datasets\
+├─ reports/ 
+│  ├─ figures/            # plots and charts\
+│  ├─ summaries/          # parameter summaries, validation metrics\
 ├─ src/\
 │  ├─ electricity_models/\
 │  │  ├─ __init__.py\
-│  │  ├─ io.py\                  # data I/O
-│  │  ├─ cleaning.py\            # data cleaning (Polars)
-│  │  ├─ features.py\            # seasonality functions
-│  │  ├─ models_one_factor.py\   # OU with seasonality
-│  │  ├─ models_two_factor.py\   # 2-factor OU with correlation
-│  │  ├─ calibration.py\         # MLE/OLS estimators
-│  │  ├─ pricing.py\             # forwards/futures pricing
-│  │  ├─ risk_premia.py\         # mapping P->Q, lambda estimation
-│  │  ├─ diagnostics.py\         # model checks
-│  │  ├─ viz.py\                 # visualization utilities
-│  │  ├─ pipeline.py\            # end-to-end orchestrator
-│  │  ├─ utils.py\               # helpers (dates, math)
+│  │  ├─ io.py                  # data I/O\
+│  │  ├─ cleaning.py            # data cleaning (Polars)\
+│  │  ├─ features.py            # seasonality functions\
+│  │  ├─ models_one_factor.py   # OU with seasonality\
+│  │  ├─ models_two_factor.py   # 2-factor OU with correlation\
+│  │  ├─ calibration.py         # MLE/OLS estimators\
+│  │  ├─ pricing.py             # forwards/futures pricing\
+│  │  ├─ risk_premia.py         # mapping P->Q, lambda estimation\
+│  │  ├─ diagnostics.py         # model checks\
+│  │  ├─ viz.py                 # visualization utilities\
+│  │  ├─ pipeline.py            # end-to-end orchestrator\
+│  │  ├─ utils.py               # helpers (dates, math)\
 ├─ main.py
 
