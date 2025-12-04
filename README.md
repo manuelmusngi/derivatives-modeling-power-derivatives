@@ -99,28 +99,28 @@ electricity_models/\
 ├─ pyproject.toml\
 ├─ README.md\
 ├─ config/\
-│  ├─ [settings.yaml](https://github.com/manuelmusngi/qr-derivatives-modeling-power-derivatives/blob/main/config/settings.yaml)\
+│  ├─ settings.yaml
 ├─ data/\
-│  ├─ raw/                # input CSVs: spot, forwards\
-│  ├─ interim/            # cleaned outputs\
-│  ├─ processed/          # modeling-ready datasets\
-├─ notebooks/\
-│  ├─ 01_explore_spot.ipynb\
-│  ├─ 02_calibration.ipynb\
-│  ├─ 03_pricing_validation.ipynb\
-├─ src/\
-│  ├─ electricity_models/\
-│  │  ├─ __init__.py\
-│  │  ├─ io.py                  # data I/O\
-│  │  ├─ cleaning.py            # data cleaning (Polars)\
-│  │  ├─ features.py            # seasonality functions\
-│  │  ├─ models_one_factor.py   # OU with seasonality\
-│  │  ├─ models_two_factor.py   # 2-factor OU with correlation\
-│  │  ├─ calibration.py         # MLE/OLS estimators\
-│  │  ├─ pricing.py             # forwards/futures pricing\
-│  │  ├─ risk_premia.py         # mapping P->Q, lambda est.\
-│  │  ├─ diagnostics.py         # model checks\
-│  │  ├─ viz.py                 # Polars-based visualization\
-│  │  ├─ pipeline.py            # end-to-end orchestrator\
-│  │  ├─ utils.py               # helpers (dates, math)\
+│  ├─ raw/\                # input CSVs: spot, forwards
+│  ├─ interim/\            # cleaned outputs
+│  ├─ processed/\          # modeling-ready datasets
+├─ reports/\
+│  ├─ figures/\            # plots and charts
+│  ├─ summaries/          # parameter summaries, validation metrics
+├─ src/
+│  ├─ electricity_models/
+│  │  ├─ __init__.py
+│  │  ├─ io.py                  # data I/O
+│  │  ├─ cleaning.py            # data cleaning (Polars)
+│  │  ├─ features.py            # seasonality functions
+│  │  ├─ models_one_factor.py   # OU with seasonality
+│  │  ├─ models_two_factor.py   # 2-factor OU with correlation
+│  │  ├─ calibration.py         # MLE/OLS estimators
+│  │  ├─ pricing.py             # forwards/futures pricing
+│  │  ├─ risk_premia.py         # mapping P->Q, lambda estimation
+│  │  ├─ diagnostics.py         # model checks
+│  │  ├─ viz.py                 # visualization utilities
+│  │  ├─ pipeline.py            # end-to-end orchestrator
+│  │  ├─ utils.py               # helpers (dates, math)
 ├─ main.py
+
