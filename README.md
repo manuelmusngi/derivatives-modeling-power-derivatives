@@ -105,7 +105,7 @@ electricity_models/\
 │  ├─ interim            # cleaned outputs\
 │  ├─ processed          # modeling-ready datasets\
 ├─ reports/
-│\  ├─ figures            # plots and charts\
+│  ├─ figures            # plots and charts\
 │  ├─ summaries          # parameter summaries, validation metrics\
 ├─ src/\
 │  ├─ electricity_models/\
