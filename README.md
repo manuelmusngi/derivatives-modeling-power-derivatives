@@ -109,8 +109,8 @@ electricity_models/\
 │  ├─ summaries          # parameter summaries, validation metrics\
 ├─ src/\
 │  ├─ electricity_models/\
-│  │  ├─ __init__.py\
-│  │  ├─ io.py\                 
+│  │  ├─ __init__.py
+│  │  ├─ io.py                 
 │  │  ├─ cleaning.py            
 │  │  ├─ features.py            
 │  │  ├─ models_one_factor.py   
