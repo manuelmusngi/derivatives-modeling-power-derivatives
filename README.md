@@ -110,7 +110,7 @@ electricity_models/\
 ├─ src/\
 │  ├─ electricity_models/\
 │  │  ├─ __init__.py\
-│  │  ├─ io.py                 | # data I/O\
+│  │  ├─ io.py\                 # data I/O
 │  │  ├─ cleaning.py            # data cleaning (Polars)\
 │  │  ├─ features.py            # seasonality functions\
 │  │  ├─ models_one_factor.py   # OU with seasonality\
