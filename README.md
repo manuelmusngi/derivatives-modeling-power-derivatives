@@ -109,7 +109,7 @@ electricity_models/\
 │  ├─ summaries           
 ├─ src/\
 │  ├─ electricity_models/\
-│  │  ├─ __init__.py
+│  │  ├─ __init__.py\
 │  │  ├─ io.py                 
 │  │  ├─ cleaning.py            
 │  │  ├─ features.py            
