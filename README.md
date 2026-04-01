@@ -93,7 +93,7 @@ One-factor mean-reverting spot model with seasonality
 
 ---
 
-### Project Architecture
+🏗️ Project Architecture
 
 electricity_models/\
 ├─ pyproject.toml\
