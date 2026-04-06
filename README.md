@@ -1,4 +1,4 @@
-This project is an exercise on derivatives modeling and a research paper replication in the Energy Sector on power derivatives. The paper investigates how predictable patterns in electricity spot prices—especially seasonality—impact the pricing of power derivatives in the Nordic Power Exchange (Nord Pool). 
+This project is an exercise in power derivatives modeling and a replication of an academic research paper in the energy sector. It examines how predictable components of electricity spot prices—most notably seasonality—affect the valuation of power derivatives traded on the Nordic Power Exchange (Nord Pool).
 
 It evaluates one- and two-factor models to capture these dynamics and tests their empirical performance.
 
