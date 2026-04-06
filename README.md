@@ -89,7 +89,7 @@ It evaluates one- and two-factor models to capture these dynamics and tests thei
 
 - Risk premia matter: ignoring them leads to systematic mispricing of derivatives.
 
-- One-factor mean-reverting spot model with seasonality
+- One-factor mean-reverting spot model with seasonality.
 
 ---
 
