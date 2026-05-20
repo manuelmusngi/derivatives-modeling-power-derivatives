@@ -124,6 +124,10 @@ electricity_models/\
 │  │  ├─ utils.py               
 ├─ main.py
 
+#### Research Reference
+
+[Electricity_prices_and_power_derivatives_-_Evidence_from_the_Nordic_Power_Exchange](https://www.researchgate.net/publication/2617769_Electricity_prices_and_power_derivatives_-_Evidence_from_the_Nordic_Power_Exchange)
+
 #### License
 This project is licensed under the [MIT License](LICENSE).  
 
