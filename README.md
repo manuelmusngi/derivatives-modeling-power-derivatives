@@ -110,12 +110,12 @@ electricity_models/\
 ├─ src/\
 │  ├─ electricity_models/\
 │  │  ├─ __init__.py\
-│  │  ├─ io.py                 
-│  │  ├─ cleaning.py            
-│  │  ├─ features.py            
-│  │  ├─ models_one_factor.py   
-│  │  ├─ models_two_factor.py    
-│  │  ├─ calibration.py         
+│  │  ├─ [io.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/io.py)                 
+│  │  ├─ [cleaning.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/cleaning.py)            
+│  │  ├─ [features.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/features.py)            
+│  │  ├─ [models_one_factor.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/models_one_factor.py)   
+│  │  ├─ [models_two_factor.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/models_two_factor.py)    
+│  │  ├─ [calibration.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/calibration.py)         
 │  │  ├─ pricing.py              
 │  │  ├─ risk_premia.py          
 │  │  ├─ diagnostics.py          
