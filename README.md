@@ -1,9 +1,6 @@
 
 #### ⚡ Power Derivatives Modeling — One‑Factor ✴️ & Two‑Factor 🔶
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](ca://s?q=Tell_me_more_about_Python)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](ca://s?q=Explain_MIT_License)
-
 This project is an exercise in power derivatives modeling and a replication of an academic research paper in the energy sector. It examines how predictable components of electricity spot prices—most notably seasonality—affect the valuation of power derivatives traded on the Nordic Power Exchange (Nord Pool).
 
 A clean, production‑ready implementation of **power derivatives pricing models** used in Nordic electricity markets (Nord Pool), including:
