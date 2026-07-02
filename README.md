@@ -131,7 +131,7 @@ electricity_models/\
 │  │  ├─ [viz.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/viz.py)                  
 │  │  ├─ [pipeline.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/pipeline.py)             
 │  │  ├─ utils.py               
-├─ main.py
+├─ [main.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/main.py)
 
 📚 Research Reference
 
