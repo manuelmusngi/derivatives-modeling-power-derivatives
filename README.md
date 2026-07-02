@@ -108,7 +108,7 @@ electricity_models/\
 ├─ pyproject.toml\
 ├─ README.md\
 ├─ config/\
-│  ├─ settings.yaml\
+│  ├─ [settings.yaml](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/config/settings.yaml)\
 ├─ data/\
 │  ├─ raw                 
 │  ├─ interim             
