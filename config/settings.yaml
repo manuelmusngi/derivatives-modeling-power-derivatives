@@ -29,8 +29,8 @@ risk:
 
 calibration:
   method: "MLE"           # "MLE" or "OLS"
-  train_start: "1995-01-01"
-  train_end: "1999-12-31"
+  train_start: "2020-01-01"
+  train_end: "2025-12-31"
 
 pricing:
   day_count: 365.0
