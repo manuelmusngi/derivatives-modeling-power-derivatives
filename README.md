@@ -128,7 +128,7 @@ electricity_models/\
 │  │  ├─ [pricing.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/pricing.py)              
 │  │  ├─ [risk_premia.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/risk_premia.py)          
 │  │  ├─ [diagnostics.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/diagnostics.py)          
-│  │  ├─ viz.py                  
+│  │  ├─ [viz.py](https://github.com/manuelmusngi/derivatives-modeling-power-derivatives/blob/main/src/electricity_models/viz.py)                  
 │  │  ├─ pipeline.py             
 │  │  ├─ utils.py               
 ├─ main.py
