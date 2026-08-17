@@ -5,7 +5,6 @@
 ![Commodities](https://img.shields.io/badge/Markets-Power%20%7C%20Gas-green.svg)
 ![Modeling](https://img.shields.io/badge/Modeling-Stochastic%20%7C%20Mean--Reversion-orange.svg)
 ![Risk](https://img.shields.io/badge/Risk-Volatility%20%7C%20Correlation-red.svg)
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Research](https://img.shields.io/badge/Backed%20By-Academic%20Literature-teal.svg)
 
 
